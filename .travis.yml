@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - echo "test start creating image of docker "
+  - echo "start creating image of docker"
   - docker build -t jongin1004/docekr-react-app -f Dockerfile.dev .
 
 script:
