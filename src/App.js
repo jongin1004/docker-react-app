@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          안되잖아 씨댕;;asd
+          안녕하세요
         </a>
       </header>
     </div>
