@@ -14,9 +14,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  skip_cleanup: true
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: &3
-    secure: $AWS_SECRET_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
   region: "ap-northeast-1"
   app: "docker-react"
   env: "Dockerreact-env"
